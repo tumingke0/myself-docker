@@ -33,7 +33,7 @@
     安装CE版，参考上面的官网地址即可，如果安装失败，建议改下yum源地址，再次尝试。
     
     下面是其他朋友写的安装方法，作参考：
-                  
+  ```bash                
     yum install docker        # CentOS 中安装
     apt-get install docker-ce # Ubuntu 中安装
     pacman -S docker          # Arch 中安装
@@ -59,6 +59,6 @@
     #  Git commit:      c4618fb/1.12.6
     #  Built:           Thu Sep 21 22:33:52 2017
     #  OS/Arch:         linux/amd64
-
+```
 
 
