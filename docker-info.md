@@ -20,14 +20,18 @@
 
 
 # 安装（这个安装建议看官网，获取CE版） 
-    官网centos安装教程链接：https://docs.docker.com/engine/installation/linux/docker-ce/centos/
+    官网centos安装教程链接：
+    https://docs.docker.com/engine/installation/linux/docker-ce/centos/
     安装之前，先把之前的给清除掉：
+
     yum remove docker \
                   docker-common \
                   docker-selinux \
                   docker-engine
+
     如果已经安装过了，执行上面那个是不够的，还要在 /var/lib/docker/ 下面给删除。
     安装CE版，参考上面的官网地址即可，如果安装失败，建议改下yum源地址，再次尝试。
+    
     下面是其他朋友写的安装方法，作参考：
                   
     yum install docker        # CentOS 中安装
